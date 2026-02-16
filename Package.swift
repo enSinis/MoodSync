@@ -18,9 +18,6 @@ let package = Package(
             path: "MoodSync",
             exclude: [
                 "Tests"
-            ],
-            resources: [
-                .process("Resources")
             ]
         ),
         .testTarget(
